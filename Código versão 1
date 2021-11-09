@@ -1,0 +1,127 @@
+package Interface;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JTextField;
+import javax.swing.JEditorPane;
+import javax.swing.DropMode;
+import java.awt.Font;
+import java.awt.Color;
+import java.awt.Toolkit;
+import javax.swing.JButton;
+import javax.swing.SwingConstants;
+import javax.swing.ImageIcon;
+import javax.swing.JComboBox;
+import javax.swing.JLayeredPane;
+import javax.swing.JList;
+import javax.swing.JDesktopPane;
+import javax.swing.JTextPane;
+
+public class Layout extends JFrame {
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Layout frame = new Layout();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public Layout() {
+		setTitle("VOC\u00CA PODE!");
+		setIconImage(Toolkit.getDefaultToolkit().getImage("F:\\PC - MESA\\AREA DE TRABALHO\\FATEC - ADS\\3\u00B0 PER\u00CDODO - 2\u00B0 SEMESTRE 2021\\ESTRUTURA DE DADOS - PROF\u00B0 EDUARDO HIDENORI ENARI\\ACELERA\\download.jpg"));
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 506, 607);
+		getContentPane().setLayout(null);
+		getContentPane().setLayout(null);
+		
+		JPanel panel = new JPanel();
+		panel.setBackground(Color.DARK_GRAY);
+		panel.setBounds(0, 0, 490, 568);
+		getContentPane().add(panel);
+		panel.setLayout(null);
+		
+		JEditorPane txtinicial = new JEditorPane();
+		txtinicial.setBounds(264, 28, 219, 141);
+		txtinicial.setBackground(Color.DARK_GRAY);
+		txtinicial.setForeground(Color.WHITE);
+		txtinicial.setFont(new Font("Comic Sans MS", Font.PLAIN, 12));
+		txtinicial.setText("Fundado em 2021, o VOC\u00CA PODE (VP) \r\n\u00E9 um f\u00F3rum sem fins lucrativos que \r\ndivulga as vagas de emprego \r\ndispon\u00EDveis no mercado de trabalho\r\npara VOC\u00CA. \r\n\r\n  Venha fazer parte de uma equipe!!!");
+		panel.add(txtinicial);
+		
+		JButton btndeffisemot = new JButton("VAGAS PARA DEFICI\u00CANCIA F\u00CDSICA OU MOTORA");
+		btndeffisemot.setBounds(60, 209, 301, 46);
+		btndeffisemot.setFont(new Font("Calibri", Font.BOLD, 12));
+		btndeffisemot.setHorizontalAlignment(SwingConstants.LEFT);
+		panel.add(btndeffisemot);
+		
+		JButton btndefmeneint = new JButton("VAGAS PARA DEFICI\u00CANCIA MENTAL OU INTELECTUAL");
+		btndefmeneint.setBounds(60, 266, 301, 46);
+		btndefmeneint.setFont(new Font("Calibri", Font.BOLD, 12));
+		btndefmeneint.setHorizontalAlignment(SwingConstants.LEFT);
+		panel.add(btndefmeneint);
+		
+		JButton btndefvis = new JButton("VAGAS PARA DEFICI\u00CANCIA VISUAL");
+		btndefvis.setBounds(60, 323, 301, 46);
+		btndefvis.setFont(new Font("Calibri", Font.BOLD, 12));
+		btndefvis.setHorizontalAlignment(SwingConstants.LEFT);
+		panel.add(btndefvis);
+		
+		JButton btndefaud = new JButton("VAGAS PARA DEFICI\u00CANCIA AUDITIVA");
+		btndefaud.setBounds(60, 380, 301, 46);
+		btndefaud.setFont(new Font("Calibri", Font.BOLD, 12));
+		btndefaud.setHorizontalAlignment(SwingConstants.LEFT);
+		panel.add(btndefaud);
+		
+		JButton btnNewButton_4 = new JButton("VAGAS PARA DEFICI\u00CANCIA M\u00DALTIPLA");
+		btnNewButton_4.setBounds(60, 437, 301, 46);
+		btnNewButton_4.setFont(new Font("Calibri", Font.BOLD, 12));
+		btnNewButton_4.setHorizontalAlignment(SwingConstants.LEFT);
+		panel.add(btnNewButton_4);
+		
+		JButton btnimamot = new JButton("");
+		btnimamot.setBounds(371, 209, 46, 46);
+		btnimamot.setIcon(new ImageIcon("F:\\PC - MESA\\AREA DE TRABALHO\\FATEC - ADS\\3\u00B0 PER\u00CDODO - 2\u00B0 SEMESTRE 2021\\ESTRUTURA DE DADOS - PROF\u00B0 EDUARDO HIDENORI ENARI\\ACELERA\\fisica.png"));
+		panel.add(btnimamot);
+		
+		JButton btnimamen = new JButton("");
+		btnimamen.setBounds(371, 266, 46, 46);
+		btnimamen.setBackground(Color.WHITE);
+		btnimamen.setIcon(new ImageIcon("F:\\PC - MESA\\AREA DE TRABALHO\\FATEC - ADS\\3\u00B0 PER\u00CDODO - 2\u00B0 SEMESTRE 2021\\ESTRUTURA DE DADOS - PROF\u00B0 EDUARDO HIDENORI ENARI\\ACELERA\\mental.png"));
+		panel.add(btnimamen);
+		
+		JButton btnimavis = new JButton("");
+		btnimavis.setBounds(371, 323, 46, 46);
+		btnimavis.setIcon(new ImageIcon("F:\\PC - MESA\\AREA DE TRABALHO\\FATEC - ADS\\3\u00B0 PER\u00CDODO - 2\u00B0 SEMESTRE 2021\\ESTRUTURA DE DADOS - PROF\u00B0 EDUARDO HIDENORI ENARI\\ACELERA\\visual.png"));
+		panel.add(btnimavis);
+		
+		JButton btnimaaud = new JButton("");
+		btnimaaud.setBounds(371, 380, 46, 46);
+		btnimaaud.setIcon(new ImageIcon("F:\\PC - MESA\\AREA DE TRABALHO\\FATEC - ADS\\3\u00B0 PER\u00CDODO - 2\u00B0 SEMESTRE 2021\\ESTRUTURA DE DADOS - PROF\u00B0 EDUARDO HIDENORI ENARI\\ACELERA\\auditiva.png"));
+		panel.add(btnimaaud);
+		
+		JButton btnimamul = new JButton("");
+		btnimamul.setBounds(371, 437, 46, 46);
+		btnimamul.setIcon(new ImageIcon("F:\\PC - MESA\\AREA DE TRABALHO\\FATEC - ADS\\3\u00B0 PER\u00CDODO - 2\u00B0 SEMESTRE 2021\\ESTRUTURA DE DADOS - PROF\u00B0 EDUARDO HIDENORI ENARI\\ACELERA\\3.png"));
+		panel.add(btnimamul);
+		
+		JLayeredPane layeredPane = new JLayeredPane();
+		layeredPane.setBounds(62, 141, 70, -25);
+		panel.add(layeredPane);
+	}
+}
