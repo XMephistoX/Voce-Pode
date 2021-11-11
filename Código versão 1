@@ -44,7 +44,7 @@ public class Layout extends JFrame {
 	 */
 	public Layout() {
 		setTitle("VOC\u00CA PODE!");
-		setIconImage(Toolkit.getDefaultToolkit().getImage("F:\\PC - MESA\\AREA DE TRABALHO\\FATEC - ADS\\3\u00B0 PER\u00CDODO - 2\u00B0 SEMESTRE 2021\\ESTRUTURA DE DADOS - PROF\u00B0 EDUARDO HIDENORI ENARI\\ACELERA\\download.jpg"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("F:\\local da imagem"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 506, 607);
 		getContentPane().setLayout(null);
@@ -96,28 +96,28 @@ public class Layout extends JFrame {
 		
 		JButton btnimamot = new JButton("");
 		btnimamot.setBounds(371, 209, 46, 46);
-		btnimamot.setIcon(new ImageIcon("F:\\PC - MESA\\AREA DE TRABALHO\\FATEC - ADS\\3\u00B0 PER\u00CDODO - 2\u00B0 SEMESTRE 2021\\ESTRUTURA DE DADOS - PROF\u00B0 EDUARDO HIDENORI ENARI\\ACELERA\\fisica.png"));
+		btnimamot.setIcon(new ImageIcon("F:\\local da imagem"));
 		panel.add(btnimamot);
 		
 		JButton btnimamen = new JButton("");
 		btnimamen.setBounds(371, 266, 46, 46);
 		btnimamen.setBackground(Color.WHITE);
-		btnimamen.setIcon(new ImageIcon("F:\\PC - MESA\\AREA DE TRABALHO\\FATEC - ADS\\3\u00B0 PER\u00CDODO - 2\u00B0 SEMESTRE 2021\\ESTRUTURA DE DADOS - PROF\u00B0 EDUARDO HIDENORI ENARI\\ACELERA\\mental.png"));
+		btnimamen.setIcon(new ImageIcon("F:\\local da imagem"));
 		panel.add(btnimamen);
 		
 		JButton btnimavis = new JButton("");
 		btnimavis.setBounds(371, 323, 46, 46);
-		btnimavis.setIcon(new ImageIcon("F:\\PC - MESA\\AREA DE TRABALHO\\FATEC - ADS\\3\u00B0 PER\u00CDODO - 2\u00B0 SEMESTRE 2021\\ESTRUTURA DE DADOS - PROF\u00B0 EDUARDO HIDENORI ENARI\\ACELERA\\visual.png"));
+		btnimavis.setIcon(new ImageIcon("F:\\local da imagem"));
 		panel.add(btnimavis);
 		
 		JButton btnimaaud = new JButton("");
 		btnimaaud.setBounds(371, 380, 46, 46);
-		btnimaaud.setIcon(new ImageIcon("F:\\PC - MESA\\AREA DE TRABALHO\\FATEC - ADS\\3\u00B0 PER\u00CDODO - 2\u00B0 SEMESTRE 2021\\ESTRUTURA DE DADOS - PROF\u00B0 EDUARDO HIDENORI ENARI\\ACELERA\\auditiva.png"));
+		btnimaaud.setIcon(new ImageIcon("F:\\local da imagem"));
 		panel.add(btnimaaud);
 		
 		JButton btnimamul = new JButton("");
 		btnimamul.setBounds(371, 437, 46, 46);
-		btnimamul.setIcon(new ImageIcon("F:\\PC - MESA\\AREA DE TRABALHO\\FATEC - ADS\\3\u00B0 PER\u00CDODO - 2\u00B0 SEMESTRE 2021\\ESTRUTURA DE DADOS - PROF\u00B0 EDUARDO HIDENORI ENARI\\ACELERA\\3.png"));
+		btnimamul.setIcon(new ImageIcon("F:\\local da imagem"));
 		panel.add(btnimamul);
 		
 		JLayeredPane layeredPane = new JLayeredPane();
